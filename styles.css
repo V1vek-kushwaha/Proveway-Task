@@ -1,0 +1,95 @@
+.mt{margin-top: 1.4rem;}
+.m-0{margin: 0px;}
+.mt-2{margin-top: .4rem;}
+.m-auto{margin: auto;}
+.m-15{margin: 15px;}
+.mt-15{margin-top: 15px;}
+.text-end{text-align: end;}
+.text-center{text-align: center;}
+.text-start{text-align: start;}
+.closeprice{
+  font-size: small;
+  color: gray;
+  font-weight: 100;
+  text-decoration: line-through;
+}
+
+
+.maindiv {
+  margin: auto;
+  width: 30rem;
+  padding: 10px;
+}
+
+.header__center {
+  font-size: 18.5px;
+  color: #007F61;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1.2rem;
+  align-items: center;
+}
+
+.header__center::before,
+.header__center::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: rgb(190, 190, 190);
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-container1 {
+  display: flex;
+}
+
+.container{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C8C8C8;
+  box-shadow: 2px 2px 10px #cfcfcf;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: white;
+}
+select{
+  width: 5.5rem;
+  border-color: lightgrey;
+  height: 1.7rem;
+  border-radius: 4px;
+  margin: 4px;
+}
+input[type=radio] {
+  accent-color: green;
+}
+
+
+button {
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #007F61;
+}
+#box {
+  display: none;
+
+}
+#box1 {
+  display: none;
+
+}
+#box2 {
+  display: none;
+
+}
+
